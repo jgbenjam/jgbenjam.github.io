@@ -1,0 +1,36 @@
+/* Filename: style.css Author: John Benjamin*/
+/* Purpose: stylesheet for camping.html */
+
+
+body {
+	
+	background-color: #21270d;
+	color: #e6f4ff;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.5em;
+	
+}
+
+h1, h2, h3 {
+	
+	text-align: center;	
+	color: #a3bff1;
+	font-family: "Comic Sans MS", sans-serif;
+	font-style: italic;	
+	
+}
+
+img {
+	
+	float: right;	
+
+}
+
+hr {
+	
+	width: 50%;
+	text-align: center;
+	color: white;
+	margin-top: 2em;
+	
+}

@@ -1,0 +1,138 @@
+/* Author: John Benjamin, 000843345 */
+
+h1, h2, h3, nav {
+	
+	color: #14ab3f;
+	background-color: white;
+	font-family: sans-serif;
+}
+
+h1 {
+	
+	text-align: center;
+	letter-spacing: 5px;
+	line-height: 1.6;
+	
+}
+
+body {
+	
+	margin-left: 3em;
+	margin-right: 3em;
+	margin-top: 0em;
+	margin-bottom: 5em;
+	
+}
+
+nav {
+	
+	background-color: #fbefb3;
+	text-align: center;
+	font-weight: bold;
+	font-family: "Times New Roman", serif;
+	
+}
+
+nav a:link {
+	
+	margin-left: 40px;
+	margin-right: 40px;
+	color: #14ab3f;	
+	text-decoration: none;
+
+}
+
+nav a:visited {
+	
+	color: #14ab3f;
+	text-decoration: underline;
+	
+}
+
+nav a:hover {
+	
+	color: #ec834a;
+	text-decoration: underline;
+	
+}
+
+nav a:active {
+	
+	color: black;
+	text-decoration: underline;
+	
+}
+
+footer {
+	
+	background-image: url("images/ricepaper.png");
+	text-align: center;
+
+}
+
+#recycle_centers img {
+	
+	vertical-align: middle;
+	
+}
+
+#circles li {
+	
+	list-style-type: circle;
+	
+}
+
+.fun {
+	
+	font-style: italic;
+	text-decoration: underline;
+	text-decoration-style: double;
+	
+}
+
+#contact {
+	
+	color: #14ab3f;
+	font-weight: bold;
+	
+}
+
+#contact-info {
+	
+	font-style: italic;
+	font-weight: bold;
+}
+
+#recycle_map {
+	
+	float: right;
+	
+}
+
+#recycling_box {
+	
+	list-style-image: url('images/recycle_sm.jpg');
+	line-height: 2.5em;
+	
+}
+
+#composting {
+	
+	color: white;
+	background-color: royalblue;
+	text-decoration: none;
+	
+}
+
+#recycling_box li:last-of-type {
+	
+	list-style-image: url('images/greenarrow.png');
+	
+}
+
+#pickup {
+	
+	color: #b8860b;
+	font-style: italic;
+	
+}

@@ -1,0 +1,36 @@
+/* Filename: styles.css Author: John Benjamin*/
+/* Purpose: stylesheet for Australia.html */
+
+body {
+
+	font-family: Helvetica, Verdana, Arial, sans-serif;
+	color: #005200;
+	background-color: #D5D5D8;
+	
+}
+
+h1, h2 {
+	
+	text-align: center;
+	color: huntergreen;
+	
+}
+
+h2 {
+	
+	background-color: darkseagreen;
+	
+}
+
+footer {
+	
+	font-size: 0.8em;
+	
+}
+
+img {
+	
+	padding: 5px;
+	float: right;
+	
+}

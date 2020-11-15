@@ -1,0 +1,389 @@
+/* Author: John Benjamin, 000843345 */
+
+
+/* =============== General Format =========== */
+
+* {
+	
+	margin: 0;
+	padding: 0;
+	font-family: verdana, helvetica, sans-serif;
+	
+}
+
+
+h2 {
+	
+	background-color: #0172BA;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	
+}
+
+
+h4 {
+	
+	text-align: center;
+	
+}
+
+/* =============== Header ================== */
+
+header {
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	height: auto;
+	
+}
+
+#headersocial {
+	
+	margin: 3em 1em 0 0.5em;
+	grid-column: 1;
+	
+}
+
+#headersocial a {
+	
+	text-decoration: none;
+	
+}
+
+#headerimg {
+	
+	grid-column: 2;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#headerbuttons {
+	
+	grid-column: 3;
+	margin: 3em;
+	text-align: right;
+	display: block;
+	
+}
+
+#headerbuttons a {
+	
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+	padding: 0.5em 1em 0.5em 1em;
+	background-color: #0172BA;
+	
+}
+
+#headerbuttons a:hover {
+	
+	background-color: #089247;
+	
+}
+
+/* ==========================  Nav =============== */
+
+nav {
+	
+	position: sticky;
+	top: 0px;
+	text-align: center;
+	padding: 1.5em;
+	background-color: #ECF7FE; 
+	border-top: 1px solid #0172BA;
+	border-bottom: 1px solid #0172BA;
+	margin-bottom: 1em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	
+}
+
+nav a {
+	
+	text-decoration: none;
+	color: white;
+	border-radius: 20px;
+	padding: 0.5em 1em 0.5em 1em;
+	color: #0172BA;
+	border: 2px solid #0172BA;
+	background-color: #FFFFFF;
+	margin: 0.5em;
+	
+}
+
+nav a:hover {
+	
+	background-color: #003557;
+	
+}
+
+/* ==================== Body ==================== */
+
+.main {
+	
+	display: grid;
+	margin: 0 5em 0 5em;
+	grid-template-columns: 250px auto 200px;
+	grid-template-rows: auto;
+	grid-gap: 2em;
+	
+}
+
+#canoeing {
+	
+	grid-column: 1;
+	grid-row: 1 / span 3;
+	
+}
+
+#canoeing h1 {
+	
+	white-space: nowrap;
+	
+}
+
+#canoeing ul {
+	
+	padding-left: 1.25em;
+	padding-top: .75em;
+	
+}
+
+/* ================= Main Hiking Section ==============*/
+
+#hiking {
+	
+	grid-column: 2;
+	grid-row: 1;
+}
+
+/*
+
+#hikingcontainer {
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: auto;
+}
+
+#hikingsubmain {
+	
+	grid-column: 1 / span 2;
+	grid-row: 1;
+	
+}
+
+
+#trailscontainer {
+	
+	grid-column: 1 / span 2;
+	grid-row: 2;
+	display: grid;
+	grid-template-columns: auto;
+	background-color: #CEECFE;
+	margin: 1em 0 1em 0;
+	border: 1px solid black;
+	
+}
+*/
+
+/* ======= New trailscontainer=========== */
+
+#trailscontainer {
+	
+	grid-column: 2;
+	grid-row: 2;
+	display: grid;
+	grid-template-columns: auto;
+	background-color: #CEECFE;
+	margin: 1em 0 1em 0;
+	border: 1px solid black;
+	
+}
+
+#trailsfall {
+	
+	font-size: 1.5em;
+	text-align: center;
+	grid-column: 1 / span 2;
+	grid-row: 1;
+}
+
+#trailsA {
+	
+	grid-column: 1;
+	grid-row: 2;
+	margin: 1em;
+	
+}
+
+#trailsB {
+	
+	grid-column: 2;
+	grid-row: 2;
+	margin: 1em;
+	padding-left: 2em;
+	border-left: 1px solid black;
+	
+}
+
+#trailscontainer ul {
+	
+	margin-left: 2em;
+	
+}
+
+
+#hikingimgA {
+	
+	float: left;
+	padding-right: 1em;
+	
+}
+
+#hikingimgB {
+	
+	float: right;
+	padding-left: 1em;
+	
+}
+
+/* ================= Main Gallery Section ============ */
+
+#gallery {
+	
+	grid-column: 2;
+	grid-row: 3;
+	
+	
+}
+
+#gallerycontainer {
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin: .5em 3em .5em 3em;
+	justify-content: center;
+	height: fit-content;
+	
+	
+}
+
+.galleryimg {
+	
+	border: 1px solid black;
+	margin: 1em;
+	
+}
+	
+/* ================ Aside ================*/
+
+#aside {
+	
+	grid-column: 3;
+	grid-row: 1 / span 3;
+	height: fit-content;
+	
+}
+
+#aside img {
+	
+	margin: 2em 0 2em 0;
+	
+}
+
+/* ================= Credits ==================== */
+
+#credits {
+	
+	grid-column: 1 / span 3;
+	grid-row: 4;
+	border-top: 1px solid #0172BA;
+	border-bottom: 1px solid #0172BA;
+
+}
+
+/* ================== footer ================== */
+
+footer {
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	background-color: #ECF7FE;
+	padding: 1.5em 0 1.5em 0;
+	border-top: 1px solid #0172BA;
+	border-bottom: 1px solid #0172BA;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	grid-gap: 2em;
+	
+}
+
+footer h3 {
+	
+	border-bottom: 1px solid #0172BA;
+	
+}
+
+#footerimg {
+	grid-column: 1;
+	grid-row: 1;	
+}
+
+#footerabout {
+	grid-column: 2;
+	grid-row: 1;
+}
+
+#footerreviews {
+	grid-column: 3;
+	grid-row: 1;
+}
+
+#footerseminars {
+	grid-column: 4;
+	grid-row: 1;	
+}
+
+#footershop {
+	grid-column: 5;
+	grid-row: 1;	
+}
+
+#footerphotos {
+	grid-column: 2;
+	grid-row: 2;	
+}
+
+#footertravel {
+	grid-column: 3;
+	grid-row: 2;	
+}
+
+#footerevents {
+	grid-column: 4;
+	grid-row: 2;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
